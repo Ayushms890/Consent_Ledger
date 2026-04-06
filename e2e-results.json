@@ -1,0 +1,79 @@
+{
+  "passed": 17,
+  "failed": 1,
+  "total": 18,
+  "results": [
+    {
+      "test": "1. Register Org1",
+      "status": "PASS"
+    },
+    {
+      "test": "2. Org2 not verified",
+      "status": "PASS"
+    },
+    {
+      "test": "3. Grant consent to verified org",
+      "status": "PASS"
+    },
+    {
+      "test": "4. Reject unverified org consent",
+      "status": "PASS"
+    },
+    {
+      "test": "5a. Correct purpose+org = true",
+      "status": "PASS"
+    },
+    {
+      "test": "5b. Wrong purpose = false",
+      "status": "PASS"
+    },
+    {
+      "test": "5c. Wrong org = false",
+      "status": "PASS"
+    },
+    {
+      "test": "6. Org1 request access approved",
+      "status": "PASS"
+    },
+    {
+      "test": "7. Wrong org denied",
+      "status": "PASS"
+    },
+    {
+      "test": "8. Consent revoked",
+      "status": "PASS"
+    },
+    {
+      "test": "9. Post-revoke access denied",
+      "status": "PASS"
+    },
+    {
+      "test": "10. getConsentDetails works",
+      "status": "PASS"
+    },
+    {
+      "test": "11a. Org1 removed",
+      "status": "PASS"
+    },
+    {
+      "test": "11b. New consent to removed org blocked",
+      "status": "PASS"
+    },
+    {
+      "test": "12a. ConsentGranted events: 1",
+      "status": "PASS"
+    },
+    {
+      "test": "12b. ConsentRevoked events: 1",
+      "status": "PASS"
+    },
+    {
+      "test": "12c. AccessApproved events: 1",
+      "status": "PASS"
+    },
+    {
+      "test": "12d. AccessDenied events: 0",
+      "status": "FAIL"
+    }
+  ]
+}
