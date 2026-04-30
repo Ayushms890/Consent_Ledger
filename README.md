@@ -3,6 +3,7 @@
 
 > **Live Demo**: Experience purpose-bound consent management on the blockchain
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19911078.svg)](https://doi.org/10.5281/zenodo.19911078)
 [![Built on Polygon](https://img.shields.io/badge/Built%20on-Polygon-8247E5?style=flat-square)](https://polygon.technology/)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.20-363636?style=flat-square)](https://soliditylang.org/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square)](https://reactjs.org/)
